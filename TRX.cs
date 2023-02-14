@@ -13,6 +13,6 @@ namespace Pcoin
         public double Amount { get; set; } // Amount of transaction
         public DateTime TimeStamp { get; set; } // Time of Transaction
         public double fee { get; set; } // Transaction fee
-        public string feeGetter { get; set; } // This Property Name should be changed with better word. 
+        public string feeRecipient { get; set; } // public key of fee Recipient 
     }
 }

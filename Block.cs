@@ -15,5 +15,6 @@ namespace Pcoin
         public List<TRX> TRXs { get; set; } // No limit for trx count
         public int Dificulty { get; set; } // Dificulty level of network
         public string PreviousHash { get; set; }
+        public string Nonce { get; set; } //the currect nonce to mine this block
     }
 }
