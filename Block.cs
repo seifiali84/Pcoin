@@ -1,12 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pcoin
+namespace WebAPI
 {
-
     public class Block
     {
         public int id { get; set; }
