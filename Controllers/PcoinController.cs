@@ -28,10 +28,5 @@ namespace WebAPI.Controllers
         {
             return View("Error!");
         }
-        [HttpGet("test")]
-        public int getsum()
-        { // tested .
-            return 10;
-        }
     }
 }
